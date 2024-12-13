@@ -17,4 +17,4 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@dependabot/npm_and_yarn/minimatch-10.0.1
+      - uses: actions/labeler@v5
