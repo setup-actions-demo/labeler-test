@@ -14,8 +14,4 @@ Documentation:
         - infra: ["infra/**/*"]
         - database: ["api/src/db/**/*"]
         - openapi: ["api/openapi.generated.yaml"]
-<<<<<<< HEAD
         - storybook: ["frontend/stories/**/*", "frontend/.storybook/**/*"]
-=======
-        - storybook: ["frontend/stories/**/*", "frontend/.storybook/**/*"]
->>>>>>> d7df7755c1e1247d5167c2e9f315b2f6ab88be68
