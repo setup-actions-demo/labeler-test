@@ -1,4 +1,4 @@
-Documentation:
+Javascript:
 - any:
     - changed-files:
         - javascript: ["**/*.js", "**/*.jsx"]
