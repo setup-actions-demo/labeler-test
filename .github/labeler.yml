@@ -1,8 +1,8 @@
 Javascript:
 - any:
   - changed-files:
-    - any-glob-to-any-file: ["**/*.js", "**/*.jsx"]
+    - any-glob-to-any-file: ["/javascriprt/**/*.js", "/javascriprt/**/*.jsx"]
 Typescript:
 - any:
   - changed-files:
-    - any-glob-to-any-file: ["**/*.ts", "**/*.tsx"]
+    - any-glob-to-any-file: ["/typescriprt/**/*.ts", "/typescriprt/**/*.tsx"]
