@@ -1,8 +1,7 @@
-Documentation:
+Javascript:
 - any:
-    - changed-files:
-        - javascript: ["/javascript/*.js", "/javascript/*.jsx"]
-        - typescript: ["**/*.ts", "**/*.tsx"]
+  - changed-files:
+    - any-glob-to-any-file: ["**/*.js", "**/*.jsx"]
         # - python: ["**/*.py"]
         # - terraform: ["**/*.tf"]
         # - shell: ["**/*.sh"]
