@@ -6,6 +6,10 @@ Typescript:
 - any:
   - changed-files:
     - any-glob-to-any-file: ["**/*.ts", "**/*.tsx"]
+Python:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: ["**/*.py"]
 
         # - python: ["**/*.py"]
         # - terraform: ["**/*.tf"]
