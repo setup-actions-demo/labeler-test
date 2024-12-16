@@ -5,4 +5,5 @@ Javascript:
 Typescript:
 - any:
   - changed-files:
-    - any-glob-to-any-file: ["/typescript/**/*.js", "/typescript/**/*.jsx"]
+    - any-glob-to-any-file: ["/typescript/**/*.ts", "/typescript/**/*.tsx"]
+
