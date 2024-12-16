@@ -1,20 +1,20 @@
-name: Pull Request Labeler
+# name: Pull Request Labeler
 
-on:
-  workflow_dispatch:
-  pull_request_target:
-    types: [opened, synchronize, reopened, closed]
+# on:
+#   workflow_dispatch:
+#   pull_request_target:
+#     types: [opened, synchronize, reopened, closed]
 
-jobs:
-  label:
-    name: Labeler
-    permissions:
-      contents: read
-      pull-requests: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4 # Uploads repository content to the runner
-        with:
-          sparse-checkout: |
-            .github
-      - uses: actions/labeler@v5
+# jobs:
+#   label:
+#     name: Labeler
+#     permissions:
+#       contents: read
+#       pull-requests: write
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4 # Uploads repository content to the runner
+#         with:
+#           sparse-checkout: |
+#             .github
+#       - uses: actions/labeler@v5
