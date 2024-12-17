@@ -1,2 +1,2 @@
-console.log("Testing for git pr-dependabot-npm_and-yarn-typescript-5_7_2")
+console.log("Testing for git dependabot/npm_and_yarn/typescript-eslint/parser-8.17.0")
 console.log("hello world")
