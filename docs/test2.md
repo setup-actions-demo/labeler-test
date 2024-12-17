@@ -1,1 +1,1 @@
-dependabot/npm_and_yarn/prettier-3.4.2
+dependabot-npm_and_yarn-types-jest-29_5_14
