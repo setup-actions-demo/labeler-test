@@ -16,7 +16,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@dependabot/npm_and_yarn/typescript-eslint/parser-8.17.0
+      - uses: actions/labeler@dependabot/npm_and_yarn/prettier-3.4.2
 
 
 

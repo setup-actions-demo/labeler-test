@@ -1,1 +1,1 @@
-test2.md211112024dependabot/npm_and_yarn/minimatch-10.0.1
+dependabot/npm_and_yarn/prettier-3.4.2
