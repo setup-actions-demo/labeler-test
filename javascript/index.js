@@ -1,2 +1,2 @@
-console.log("dependabot/npm_and_yarn/minimatch-10.0.1")
+console.log("Testing for git pr-dependabot-npm_and-yarn-typescript-5_7_2")
 console.log("hello world")

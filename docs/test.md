@@ -1,1 +1,1 @@
-dependabot/npm_and_yarn/minimatch-10.0.1
+pr-dependabot-npm_and-yarn-typescript-5_7_2
