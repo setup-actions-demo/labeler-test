@@ -16,7 +16,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: dependabot/npm_and_yarn/eslint-plugin-jest-28.9.0
+      - uses: actions/labeler@dependabot/npm_and_yarn/eslint-plugin-jest-28.9.0
 
 
 
