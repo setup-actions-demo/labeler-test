@@ -16,7 +16,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@dependabot/npm_and_yarn/types/jest-29.5.14
+      - uses: actions/labeler@dependabot/npm_and_yarn/ts-jest-29.2.5
 
 
 

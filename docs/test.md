@@ -1,1 +1,1 @@
-pr-dependabot-npm_and-yarn-typescript-5_7_2
+PR FOR dependabot/npm_and_yarn/ts-jest-29.2.5
