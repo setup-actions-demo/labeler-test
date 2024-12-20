@@ -1,1 +1,1 @@
-console.log("PR for dependabot/npm_and_yarn/ts-jest-29.2.5")
+console.log("PR for dependabot/npm_and_yarn/vercel/ncc-0.38.3")
