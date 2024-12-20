@@ -1,6 +1,5 @@
-Javascript:
+Code Change:
 - any:
-  - changed-files:
     - any-glob-to-any-file: ["**/*.js", "**/*.jsx"]
 Typescript:
 - any:
