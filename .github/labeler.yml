@@ -1,8 +1,13 @@
-Documentation:
-- changed-files:
-  - any-glob-to-any-file: ['docs/*']
-- head-branch: '/^(?i)(a).*/'
-# JavaScript:
-#   - any: 
-#       - changed-files:
-#         - any-glob-to-any-file: ['javascript/*']
+Javascript:
+- any:
+    - any-glob-to-any-file: ["**/*.js", "**/*.jsx"]
+Typescript:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: ["**/*.ts", "**/*.tsx"]
+  - head-branch: '/^(?i)(a).*/'
+Python:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: ["**/*.py"]
+
