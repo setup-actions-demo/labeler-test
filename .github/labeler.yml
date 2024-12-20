@@ -1,9 +1,7 @@
 Documentation:
-  - changed-files:
-    - any-glob-to-any-file: ['docs/*']
-  - head-branch: '\^(?i)(a).*\'
-      
-# JavaScript:
-#   - any: 
-#       - changed-files:
-#         - any-glob-to-any-file: ['javascript/*']
+      - changed-files:
+        - any-glob-to-any-file: ['docs/*']
+JavaScript:
+  - any: 
+      - changed-files:
+        - any-glob-to-any-file: ['javascript/*']
