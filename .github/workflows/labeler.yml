@@ -16,7 +16,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@dependabot/npm_and_yarn/vercel/ncc-0.38.30
+      - uses: actions/labeler@v5
 
 
 
