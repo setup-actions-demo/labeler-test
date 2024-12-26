@@ -5,7 +5,11 @@ Typescript:
 - any:
   - changed-files:
     - any-glob-to-any-file: ["**/*.ts", "**/*.tsx"]
+<<<<<<< HEAD
   - head-branch: '^(a).*/gim'
+=======
+  - head-branch: '^(?i)(a).*'
+>>>>>>> efc916207ffdb103f6069fd82a30fd886aeb8c09
 Python:
 - any:
   - changed-files:
