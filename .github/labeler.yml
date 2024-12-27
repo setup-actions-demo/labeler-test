@@ -9,7 +9,8 @@ Submission:
 - changed-files:
   - any-glob-to-any-file: 'projects/**'
 
-# Dev:
-# - all:
-#   - changed-files:
-#     - any-globs-to-any-file: '!projects/**'
+Dev:
+- all:
+  - changed-files:
+    - any-globs-to-any-file: '!projects/**'
+    - all-globs-to-any-file: '*'
