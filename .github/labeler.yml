@@ -12,5 +12,5 @@ Submission:
 Dev:
 - all:
   - changed-files:
-    - any-globs-to-any-file: '!projects/**'
-    - all-globs-to-any-file: '*'
+    - any-glob-to-any-file: '*'
+    - all-globs-to-any-file: '!projects/**'
