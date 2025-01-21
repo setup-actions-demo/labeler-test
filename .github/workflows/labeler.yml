@@ -16,7 +16,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@dependabot/npm_and_yarn/typescript-5.7.2
+      - uses: actions/labeler@dependabot/npm_and_yarn/typescript-5.7.3
 
 
 
