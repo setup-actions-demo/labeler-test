@@ -1,7 +1,7 @@
-Documentation:
-      - changed-files:
-        - any-glob-to-any-file: ['docs/*']
-# JavaScript:
-#   - any: 
+# Documentation:
 #       - changed-files:
-#         - any-glob-to-any-file: ['javascript/*']
+#         - any-glob-to-any-file: ['docs/*']
+JavaScript:
+  - any: 
+      - changed-files:
+        - any-glob-to-any-file: ['javascript/*']
