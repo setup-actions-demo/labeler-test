@@ -2,7 +2,7 @@ name: 'Issue 1197'
 on:
   # workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
 
 permissions:
   issues: write
