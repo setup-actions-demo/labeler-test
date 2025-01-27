@@ -1,8 +1,8 @@
 name: 'Issue 1197'
 on:
-  # workflow_dispatch:
-  schedule:
-    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '*/30 * * * *'
 
 permissions:
   issues: write
@@ -21,8 +21,8 @@ jobs:
           days-before-issue-stale: 28
           days-before-pr-stale: 1
           days-before-issue-close: 7
-          # days-before-pr-close: 14
-          # stale-issue-label: 'U: stale'
-          # stale-pr-label: 'PR: stale'
-          # exempt-pr-labels: 'PR: WIP'
-          # exempt-issue-labels: 'enhancement, U: reproduced'
+          days-before-pr-close: 14
+          stale-issue-label: 'U: stale'
+          stale-pr-label: 'PR: stale'
+          exempt-pr-labels: 'PR: WIP'
+          exempt-issue-labels: 'enhancement, U: reproduced'
