@@ -1,7 +1,6 @@
-# Documentation:
-#       - changed-files:
-#         - any-glob-to-any-file: ['docs/*']
-JavaScript:
-  - any: 
+github_workflow_changes:
       - changed-files:
-        - any-glob-to-any-file: ['javascript/*']
+        - any-glob-to-any-file: ['.github/*']
+made_restricted_changes:
+      - changed-files:
+        - any-glob-to-any-file: ['.github/*']
