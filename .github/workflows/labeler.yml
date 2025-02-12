@@ -16,4 +16,4 @@ jobs:
         with:
           sparse-checkout: |
             .github
-      - uses: actions/labeler@v5
+      - uses: actions/labeler@dependabot/npm_and_yarn/undici-5.28.5
