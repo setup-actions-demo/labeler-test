@@ -1,2 +1,1 @@
-console.log("dependabot/npm_and_yarn/minimatch-10.0.1")
-console.log("hello world 2")
+console.log("Changes for issue 841 new")

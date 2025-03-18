@@ -1,1 +1,1 @@
-dependabot/npm_and_yarn/minimatch-10.0.1
+Changes for issue 841 new
