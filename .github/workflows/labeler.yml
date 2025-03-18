@@ -20,20 +20,23 @@
 
 
 # .github/workflows/auto-labeler.yaml
-# name: "Pull Request Labeler for issue 841"
-# on:
-#   pull_request_target:
-#     types: [ opened, reopened, synchronize ]
+name: "Pull Request Labeler for issue 841"
 
-# jobs:
-#   labeler:
-#     permissions:
-#       contents: read
-#       pull-requests: write
-#     runs-on: ubuntu-22.04
-#     steps:
-#       - uses: actions/labeler@v5
-#         with:
-#           sync-labels: false
-#           dot: true
-#           configuration-path: .github/labeler.yml
+on:
+  pull_request_target:
+    types: [ opened, reopened, synchronize ]
+
+jobs:
+  labeler:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with: "setup-actions-demo/labeler-test"
+      - uses: actions/labeler@v5
+        with:
+          sync-labels: false
+          configuration-path: .github/labeler.yml
+
