@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-        with: setup-actions-demo/labeler-test
+        with: "setup-actions-demo/labeler-test"
       - uses: actions/labeler@v5
         with:
           sync-labels: false
