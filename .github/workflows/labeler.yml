@@ -38,5 +38,6 @@ jobs:
       - uses: actions/labeler@v5
         with:
           sync-labels: false
+          dot: true
           configuration-path: .github/labeler.yml
 
