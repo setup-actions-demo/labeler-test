@@ -1,43 +1,20 @@
-# name: Pull Request Labeler
-
-# on:
-#   pull_request_target:
-#     types: [opened, synchronize, reopened, closed]
-
-# jobs:
-#   label:
-#     runs-on: ubuntu-latest
-#     permissions:
-#       contents: read
-#       pull-requests: write
-
-#     steps:
-#       - uses: actions/checkout@v4 # Uploads repository content to the runner
-#         with:
-#           sparse-checkout: |
-#             .github
-#       - uses: actions/labeler@dependabot/npm_and_yarn/undici-5.28.5
-
-
-# .github/workflows/auto-labeler.yaml
-name: "Pull Request Labeler for issue 841"
+name: Pull Request Labeler
 
 on:
   pull_request_target:
-    types: [ opened, reopened, synchronize ]
+    types: [opened, synchronize, reopened, closed]
 
 jobs:
-  labeler:
+  label:
+    runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
-    runs-on: ubuntu-22.04
+
     steps:
-      - uses: actions/checkout@v4
-        with: setup-actions-demo/labeler-test
-      - uses: actions/labeler@v5
+      - uses: actions/checkout@v4 # Uploads repository content to the runner
         with:
-          sync-labels: false
-          dot: true
-          configuration-path: .github/labeler.yml
+          sparse-checkout: |
+            .github
+      - uses: actions/labeler@v5
 
