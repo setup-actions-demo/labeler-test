@@ -36,4 +36,4 @@ jobs:
         with:
           sync-labels: false
           dot: true
-          configuration-path: .github/labeler.yaml
+          configuration-path: .github/labeler.yml
