@@ -1,4 +1,4 @@
-name: Pull Request Labeler
+name: PRL(841-1)
 
 on:
   pull_request_target:
