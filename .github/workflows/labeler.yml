@@ -1,4 +1,4 @@
-name: PRL(841-3)
+name: PRL(841-4)
 
 on:
   pull_request_target:
@@ -18,6 +18,6 @@ jobs:
             .github
       - uses: actions/labeler@v5
         with:
-          sync-labels: false
+          sync-labels: true
           dot: true
 
