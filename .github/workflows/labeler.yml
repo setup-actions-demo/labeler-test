@@ -17,4 +17,7 @@ jobs:
           sparse-checkout: |
             .github
       - uses: actions/labeler@v5
+        with:
+          sync-labels: false
+          dot: true
 
